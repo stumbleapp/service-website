@@ -1,3 +1,3 @@
-# stumble-website
+# Website
 
-Source for the [stumble.app website](https://stumble.app).
+Source for [stumble.app](https://stumble.app).

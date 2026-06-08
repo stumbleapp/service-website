@@ -1,0 +1,27 @@
+{
+	"short_name": "Stumble",
+	"name": "Stumble",
+	"description": "",
+	"icons": [
+		{
+			"src": "/assets/logo64.png",
+			"type": "image/jpeg",
+			"sizes": "64x64"
+		},
+		{
+			"src": "/assets/logo192.png",
+			"type": "image/jpeg",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/assets/logo512.png",
+			"type": "image/jpeg",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"scope": "/",
+	"display": "standalone",
+	"theme_color": "#FFFFFF",
+	"background_color": "#FFFFFF"
+}

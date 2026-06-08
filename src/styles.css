@@ -1,0 +1,41 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+html {
+	background-color: #000000;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.banner {
+	text-align: center;
+
+	h1, h2, h3 {
+		font-family: "Roboto";
+		font-weight: 400;
+	}
+
+	h1 {
+		font-size: 4em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	div {
+		margin-top: 1.6em;
+	}
+
+	p {
+		line-height: 1.6em;
+		opacity: 0.75;
+	}
+}

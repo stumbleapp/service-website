@@ -3,7 +3,7 @@
 https://stumble.app/  
 
 Powered by [Vite](https://vitejs.dev/) and [React](https://react.dev/).  
-NOTE: Nodejs >= 18 is necessary.  
+NOTE: Nodejs >= 22 is necessary.  
 
 ## Building the Site
 

@@ -8,21 +8,46 @@
 		<link rel="apple-touch-icon" type="image/png" href="/assets/logo192.png" />
 		<link rel="manifest" type="application/json" href="/manifest.json" />
 		<title>Stumble</title>
+		<style>
+			html, body {
+				margin: 0;
+				background: #000000;
+			}
+
+			noscript {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				min-height: 100vh;
+				padding: 2em;
+				text-align: center;
+				font-family: sans-serif;
+				color: #FFFFFF;
+			}
+
+			noscript img {
+				width: 120px;
+				height: 120px;
+				margin-bottom: 1.5em;
+			}
+
+			noscript p {
+				font-size: 1.1em;
+				line-height: 1.8;
+				margin: 0;
+				opacity: 0.85;
+			}
+		</style>
 	</head>
 	<body>
 
 		<noscript>
 			<img src="/assets/logo512.png" alt="Stumble" />
-			<div>
-				<p>
-					<span>
-						Looks like you're in a bit of a Jam.<br />
-						Let us help you find the Sauce of the problem.<br />
-						Have you honestly never tried spreading JavaScript on Toast?<br />
-						Maybe a bit of Jam or Marmalade too.
-					</span>
-				</p>
-			</div>
+			<p>Looks like you're in a bit of a Jam.<br />
+			Let us help you find the Sauce of the problem.<br />
+			Have you honestly never tried spreading JavaScript on Toast?<br />
+			Maybe a bit of Jam or Marmalade too.</p>
 		</noscript>
 
 		<div id="root"></div>

@@ -1,0 +1,15 @@
+.home-logo-card {
+	background: linear-gradient(135deg, #9D19DD, #7B0FA0);
+	border-radius: 28px;
+	padding: 4em;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 8px 40px rgba(157, 25, 221, 0.35), 0 2px 12px rgba(0, 0, 0, 0.2);
+
+	img {
+		width: 140px;
+		height: 140px;
+		filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+	}
+}

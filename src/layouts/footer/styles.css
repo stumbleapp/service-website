@@ -1,0 +1,23 @@
+footer {
+	justify-content: center;
+	font-weight: 400;
+	font-size: 0.8em;
+	padding: 3em 2em;
+	text-align: center;
+
+	p {
+		color: rgba(255, 255, 255, 0.55);
+		line-height: 1.8em;
+		margin: 0;
+
+		&:first-child {
+			color: rgba(255, 255, 255, 0.75);
+		}
+	}
+
+	a {
+		color: #FFFFFF;
+		display: inline-block;
+		margin: 2em 1.5em 0 1.5em;
+	}
+}

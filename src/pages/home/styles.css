@@ -6,12 +6,12 @@
 
 .home-logo-card {
 	background: linear-gradient(135deg, rgba(157, 25, 221, 0.4), rgba(123, 15, 160, 0.4));
-	border-radius: 20px;
+	border-radius: 32px;
 	padding: 3em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	box-shadow: 0 8px 40px rgba(157, 25, 221, 0.4);
+	box-shadow: 0 8px 64px rgba(157, 25, 221, 0.4);
 
 	img {
 		width: 100px;
@@ -30,7 +30,6 @@
 
 @media screen and (min-width: 768px) {
 	.home-logo-card {
-		border-radius: 28px;
 		padding: 4em;
 
 		img {

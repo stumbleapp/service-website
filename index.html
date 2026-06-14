@@ -9,13 +9,24 @@
 		<link rel="manifest" type="application/json" href="/manifest.json" />
 		<title>Stumble</title>
 		<style>
-			html {
+			* {
+				padding: 0;
 				margin: 0;
-				background: #000000;
 			}
 
-			body {
-				margin: 0;
+			html {
+				height: 100%;
+				font-family: "Roboto", sans-serif;
+				background: #000000;
+				background-image:
+					radial-gradient(circle at 25% 30%, rgba(157, 25, 221, 0.12) 0%, transparent 40%),
+					radial-gradient(circle at 75% 70%, rgba(107, 15, 157, 0.1) 0%, transparent 40%),
+					repeating-linear-gradient(60deg,
+						transparent, transparent 14px,
+						rgba(157, 25, 221, 0.06) 14px, rgba(157, 25, 221, 0.06) 15px),
+					repeating-linear-gradient(-60deg,
+						transparent, transparent 14px,
+						rgba(107, 15, 157, 0.06) 14px, rgba(107, 15, 157, 0.06) 15px);
 			}
 
 			noscript {
@@ -33,21 +44,27 @@
 			noscript img {
 				width: 120px;
 				height: 120px;
-				margin-bottom: 1.5em;
+				margin-bottom: 2em;
 			}
 
 			noscript p {
 				font-size: 1.1em;
-				line-height: 1.8;
+				line-height: 1.4;
 				margin: 0;
 				opacity: 0.85;
+			}
+
+			#root {
+				display: flex;
+				flex-direction: column;
+				min-height: 100vh;
 			}
 		</style>
 	</head>
 	<body>
 
 		<noscript>
-			<img src="/assets/logo512.png" alt="Stumble" />
+			<img src="/assets/logo.svg" alt="Stumble" />
 			<p>Looks like you're in a bit of a Jam.<br />
 			Let us help you find the Sauce of the problem.<br />
 			Have you honestly never tried spreading JavaScript on Toast?<br />

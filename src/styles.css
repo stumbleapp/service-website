@@ -1,35 +1,7 @@
-html, body {
-	height: 100%;
-	margin: 0;
-	font-family: "Roboto", sans-serif;
-}
-
-html {
-	background-color: #000000;
-	background-image: 
-		radial-gradient(circle at 25% 30%, rgba(157, 25, 221, 0.12) 0%, transparent 40%),
-		radial-gradient(circle at 75% 70%, rgba(107, 15, 157, 0.1) 0%, transparent 40%),
-		repeating-linear-gradient(60deg,
-			transparent, transparent 14px,
-			rgba(157, 25, 221, 0.06) 14px, rgba(157, 25, 221, 0.06) 15px),
-		repeating-linear-gradient(-60deg,
-			transparent, transparent 14px,
-			rgba(107, 15, 157, 0.06) 14px, rgba(107, 15, 157, 0.06) 15px),
-		repeating-linear-gradient(0deg,
-			transparent, transparent 24px,
-			rgba(123, 15, 160, 0.04) 24px, rgba(123, 15, 160, 0.04) 25px);
-}
-
-#root {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
 .banner {
 	text-align: center;
 
-	h1, h2, h3 {
+	h1, h2 {
 		font-family: "Roboto";
 		font-weight: 400;
 	}
